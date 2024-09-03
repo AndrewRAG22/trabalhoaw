@@ -1,0 +1,105 @@
+/* Customizando o fundo da pagina */
+* {
+    background-color: rgb(216, 216, 216);
+}
+/* Customizando o menu de navegação*/
+ul {
+    list-style: none;
+    margin: 5px;
+    padding: 12px;
+    width: auto;
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+/* Customizando o menu de navegação e deixando em linha*/
+li {display:inline;} 
+    .externo{
+        border-radius: 8px; 
+        border: 1px solid;
+        padding: 5px; 
+        color: black;
+        text-decoration:none;
+      }
+/* Adicionando o efeito trocar de cor ao passar o mouse sobre os itens do menu de navegação*/
+.externo:hover {
+    color:white;
+    background-color: black;
+    padding: 6px;
+}
+/* Customização da posição e tamanho da foto do autor*/
+.eu { 
+    display: block; 
+    margin: 1px auto; 
+    max-width: 15%; 
+    border-radius: 5px; 
+} 
+/* Customização do formulário*/
+.contato{    
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    border: 6px;
+}
+/* Customização a área de comentários*/
+textarea{ 
+width: 30%; 
+height: 60px; 
+} 
+/* Customização da área sobre o autor*/
+.sobre{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(148, 148, 148);
+}
+
+.GIT{
+    padding: 5px; 
+    color: black;
+    text-align: center;
+    font-size: 30px; 
+    height: auto; 
+}
+.formacao{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px; 
+    background-color: rgb(148, 148, 148);
+}
+.portifolio{
+    text-decoration:none;
+    color: black;
+}
+/* Adicionando o efeito trocar de cor ao passar o mouse sobre o link que leva ao git hub do autor*/
+.portifolio:hover{ 
+    color:white;
+    background-color: rgb(148, 148, 148);
+    padding: 6px;
+    border: 1px solid;
+}
+.escultura{
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    font-size: 30px;
+}
+/* Dimensionando as imagens*/
+.foto { 
+    background-color: rgb(148, 148, 148);
+    border-radius: 10px;
+    max-width: 20%;
+    border: 1px solid;
+}
+.pe{
+    background-color: rgb(148, 148, 148);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.fundo{
+    background-color: rgb(148, 148, 148);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
